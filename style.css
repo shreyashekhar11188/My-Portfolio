@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* BODY */
+body {
+  background: #FFF0F6;   /* ultra baby pink */
+  color: #4a4a4a;
+}
+
+/* NAVBAR */
+nav {
+  background: #FFE6F0;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 16px 0;
+}
+
+nav a {
+  color: #C45C8A;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #F7A1C4;
+  transform: translateY(-2px);
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 110px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #C45C8A;
+}
+
+.hero span {
+  color: #F7A1C4;
+}
+
+.hero p {
+  color: #9b5f7c;
+  margin: 12px 0 24px;
+}
+
+/* BUTTONS */
+.btn {
+  background: #F7A1C4;
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #FAD1E6;
+  color: #C45C8A;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(247, 161, 196, 0.45);
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #C45C8A;
+  margin-bottom: 28px;
+}
+
+/* CARDS */
+.card {
+  background: #FFFAFD;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 8px 20px rgba(247, 161, 196, 0.25);
+  transition: all 0.35s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(247, 161, 196, 0.4);
+}
+
+/* SKILLS GRID */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 24px;
+}
+
+/* FORM */
+input, textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border: 2px solid #FFD6E8;
+  background: #FFF5FA;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #F7A1C4;
+}
+
+/* FOOTER */
+footer {
+  background: #FFE6F0;
+  text-align: center;
+  padding: 18px;
+  color: #C45C8A;
+}
