@@ -121,16 +121,16 @@ h2 {
   margin-bottom: 40px;
 }
 
-/* Projects Grid */
+
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 28px;
 }
 
-/* Project Card */
+
 .project-card {
-  background: #FFFAFD; /* soft white-pink */
+  background: #FFFAFD;
   padding: 32px 26px;
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(247, 161, 196, 0.22);
