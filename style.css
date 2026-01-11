@@ -181,7 +181,6 @@ input:focus, textarea:focus {
   border-color: #F7A1C4;
 }
 
-/* FOOTER */
 footer {
   background: #FFE6F0;
   text-align: center;
@@ -189,7 +188,6 @@ footer {
   color: #C45C8A;
 }
 
-/* FLOATING BLOBS */
 .blob {
   position: fixed;
   width: 240px;
