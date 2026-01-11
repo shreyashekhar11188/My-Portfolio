@@ -112,6 +112,57 @@ h2 {
   padding: 26px;
   box-shadow: 0 8px 20px rgba(247, 161, 196, 0.25);
   transition: all 0.35s ease;
+} 
+/* Projects Section */
+#projects {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  color: #C45C8A; /* pastel pink heading */
+  margin-bottom: 40px;
+}
+
+/* Projects Grid */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+/* Project Card */
+.project-card {
+  background: #FFFAFD; /* soft white-pink */
+  padding: 32px 26px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(247, 161, 196, 0.22);
+  transition: all 0.35s ease;
+  text-align: left;
+  border: 1px solid #FFD6E8;
+}
+
+/* SAME HOVER EFFECT FOR ALL PROJECT CARDS */
+.project-card:hover {
+  transform: rotateX(5deg) rotateY(-5deg) scale(1.04);
+  box-shadow: 0 18px 40px rgba(247, 161, 196, 0.45);
+}
+
+/* Project Title */
+.project-card h3 {
+  font-size: 1.1rem;
+  color: #B85C85;
+  margin-bottom: 8px;
+}
+
+/* Project Description */
+.project-card p {
+  font-size: 0.95rem;
+  color: #6b4b5a;
+  line-height: 1.5;
 }
 
 .card:hover {
