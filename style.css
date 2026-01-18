@@ -223,23 +223,3 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
-/* PROJECT VIEW BUTTON (SAME FOR ALL PROJECTS) */
-.project-btn {
-  display: inline-block;
-  margin-top: 18px;
-  padding: 10px 24px;
-  background: #F7A1C4;
-  color: white;
-  text-decoration: none;
-  border-radius: 999px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.project-btn:hover {
-  background: #FAD1E6;
-  color: #C45C8A;
-  transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 10px 22px rgba(247, 161, 196, 0.45);
-}
