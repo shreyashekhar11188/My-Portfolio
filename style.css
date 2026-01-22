@@ -99,8 +99,6 @@ nav a:hover::after {
   box-shadow: 0 10px 25px rgba(247, 161, 196, 0.4);
 }
 
-
-
 section {
   padding: 60px 20px;
   max-width: 1000px;
