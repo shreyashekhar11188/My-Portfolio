@@ -88,6 +88,19 @@ nav a:hover::after {
   font-size: 0.9rem;
 }
 
+.hero-avatar {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 28px;
+  display: block;
+  border: 4px solid #FAD1E6;
+  box-shadow: 0 10px 25px rgba(247, 161, 196, 0.4);
+}
+
+
+
 section {
   padding: 60px 20px;
   max-width: 1000px;
